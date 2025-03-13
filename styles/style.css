@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+
+figure
+{
+    margin: 0;
+}
+
+figure>img
+{
+    margin-left: 14px;
+    width: 18%;
+}
+
+Div>ul>li
+{
+    display: inline-block;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+Div>ul>li>a:hover
+{
+    text-decoration: none;
+    background-color: #eaebec;
+}
+
+Div>ul>li>a
+{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+ul
+{
+    margin-left: -20px;
+    margin: 0;
+    padding: 0;
+}
+
+

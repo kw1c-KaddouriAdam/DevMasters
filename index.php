@@ -6,17 +6,18 @@
  */
 ?>
 <!DOCTYPE html>
-<html lang="nl" xmlns="http://www.w3.org/1999/html">
-<head>
-    <title> </title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles/style.css" rel="stylesheet">
-</head>
-<body>
-<main>
-</main>
-</body>
+<html lang="nl">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./styles/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <?php
+        include("Includes/Navigator.php");
+        ?>
+        <main id="wrapper">
+        </main>
+    </body>
 </html>
-
-
