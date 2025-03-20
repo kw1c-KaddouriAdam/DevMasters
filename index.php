@@ -19,5 +19,10 @@
         ?>
         <main id="wrapper">
         </main>
+        <footer>
+            <?php
+            include("Includes/Footer.php");
+            ?>
+        </footer>
     </body>
 </html>
