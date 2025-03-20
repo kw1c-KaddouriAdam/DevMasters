@@ -18,7 +18,6 @@
         include("Includes/Navigator.php");
         ?>
         <main>
-
         </main>
         <footer>
             <?php
