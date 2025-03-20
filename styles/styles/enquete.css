@@ -1,0 +1,18 @@
+div
+{
+    /* Ruimte binnen het formulier toevoegen */
+    padding: 20px;
+    /* Ruimte rondom het formulier */
+    margin: 10px;
+    /* Schaduw toevoegen voor een lichte 3D-look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* Hoeken afronden */
+    border-radius: 10px;
+    /* Tekst uitlijnen naar links */
+    text-align: left;
+}
+
+input
+{
+
+}
