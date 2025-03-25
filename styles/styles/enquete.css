@@ -1,23 +1,77 @@
-div
-{
-    /* Ruimte binnen het formulier toevoegen */
+/*div*/
+/*{*/
+/*    !* Ruimte binnen het formulier toevoegen *!*/
+/*    padding: 20px;*/
+/*    !* Ruimte rondom het formulier *!*/
+/*    margin: 10px;*/
+/*    !* Schaduw toevoegen voor een lichte 3D-look *!*/
+/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);*/
+/*    !* Hoeken afronden *!*/
+/*    border-radius: 10px;*/
+/*    !* Tekst uitlijnen naar links *!*/
+/*    text-align: left;*/
+/*}*/
+
+/*div*/
+/*{*/
+/*    width: 75%;*/
+/*}*/
+
+
+form {
+    background: #ffffff;
+    width: 90%;
     padding: 20px;
-    /* Ruimte rondom het formulier */
-    margin: 10px;
-    /* Schaduw toevoegen voor een lichte 3D-look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    /* Hoeken afronden */
     border-radius: 10px;
-    /* Tekst uitlijnen naar links */
-    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
 }
 
-div
-{
-    width: 75%;
+/* Titels en labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Inputvelden */
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Radiobuttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Knoppen */
+button {
+    background-color: #00A1E4;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #007bb5;
 }
 
 #nav
 {
     box-shadow: 0;
+}
+
+label
+{
+    padding-top: 10px;
 }
