@@ -81,7 +81,13 @@ ul
     gap: 30px;
 }
 
-
+#streepjenav
+{
+    background-color: #0074c8;
+    border: none;
+    height: 2px;
+    margin: 20px auto; /* Center the line */
+}
 
 
 
