@@ -42,7 +42,6 @@
         <main id="wrapper">
             <section>
                 <h2> Bent u geschikt om in de luchtvaart te werken bij KLM?</h2>
-                <hr>
                 <!-- Een vragenlijst -->
                 <form action="resultatenEnquete.php" method="get">
 
@@ -74,9 +73,9 @@
 
                     <div>
                         <label> Kunt u goed omgaan met klanten? </label> <br>
-                        <input type="radio" name="Customers" value="-10"> Nee, ik kan niet goed omgaan met klanten
-                        <input type="radio" name="Customers" value="5"> Ik kan redelijk omgaan met klanten
-                        <input type="radio" name="Customers" value="10"> Ja ik kan heel goed omgaan met klanten
+                        <input type="radio" name="Customers" value="-10"> Nee
+                        <input type="radio" name="Customers" value="5"> Redelijk
+                        <input type="radio" name="Customers" value="10"> Ja
                     </div>
 
                     <div>
@@ -94,9 +93,9 @@
 
                     <div>
                         <label> Hoe stressbestendig ben je? </label> <br>
-                        <input type="radio" name="Stress" value="-5"> Ik kan niet tegen stress
-                        <input type="radio" name="Stress" value="0"> Ik kan een beetje tegen stress
-                        <input type="radio" name="Stress" value="10"> Ik kan heel goed tegen stress
+                        <input type="radio" name="Stress" value="-5"> Goed
+                        <input type="radio" name="Stress" value="0"> Voldoende
+                        <input type="radio" name="Stress" value="10"> Slecht
                     </div>
 
                     <div>
@@ -134,9 +133,9 @@
 
                     <div>
                         <label> Wat voor opleiding heeft u gevolgd?</label> <br>
-                        <input type="radio" name="educationFollowed" value="-10"> Ik heb geen opleiding gevolgd
-                        <input type="radio" name="educationFollowed" value="0"> Ik heb een opleiding gevolgd die niks met luchmaatschappij te maken heeft
-                        <input type="radio" name="educationFollowed" value="10"> Ik heb een opleiding gevolgd over de luchtvaart
+                        <input type="radio" name="educationFollowed" value="-10"> Geen opleiding
+                        <input type="radio" name="educationFollowed" value="0"> niet interessante opleiding
+                        <input type="radio" name="educationFollowed" value="10"> Zeer interessante opleiding
                     </div>
 
                     <div>
@@ -149,7 +148,7 @@
                     <div>
                         <label> Staat u open om nieuwe dingen te leren en door te groeien binnen ons bedrijf? </label> <br>
                         <input type="radio" name="newLearning" value="10"> Ja
-                        <input type="radio" name="newLearning" value="-10"> NEe
+                        <input type="radio" name="newLearning" value="-10"> Nee
                     </div>
 
                     <div>
