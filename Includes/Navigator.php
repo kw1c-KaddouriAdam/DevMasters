@@ -11,7 +11,7 @@
     <img src="../images/klm.png">
 </figure>
 
-    <div id="nav">
+    <nav>
         <ul>
             <li><a target="_blank" href="../index.php">Home</a></li>
             <li><a target="_blank" href="https://www.klm.nl/trip">Mijn reis</a></li>
@@ -19,7 +19,7 @@
             <li><a target="_blank" href="https://www.klm.nl/information">Informatie</a></li>
             <li><a target="_blank" href="https://www.klm.nl/information/support">Hulp</a></li>
         </ul>
-    </div>
+    <nav>
 
 <h1>
 
