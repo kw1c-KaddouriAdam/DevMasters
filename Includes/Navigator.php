@@ -11,7 +11,7 @@
     <img src="../images/klm.png">
 </figure>
 
-    <div>
+    <div id="nav">
         <ul>
             <li><a target="_blank" href="../index.php">Home</a></li>
             <li><a target="_blank" href="https://www.klm.nl/trip">Mijn reis</a></li>

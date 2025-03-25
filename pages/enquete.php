@@ -14,7 +14,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../styles/styles/enquete.css" rel="stylesheet">
     </head>
+    <header>
+        <?php
+        $basePath = "";
+        include("../Includes/Navigator.php");
+        ?>
+    </header>
     <body>
+    <?php
+    // Haal het huidige uur op (24-uurs formaat)
+    $hour = date('H');
+
+    if ($hour >= 5 && $hour < 12) {
+        $greeting = "Goedemorgen";
+    } elseif ($hour >= 12 && $hour < 18) {
+        $greeting = "Goedemiddag";
+    } else {
+        $greeting = "Goedenavond";
+    }
+    ?>
+
+    <h1><?php echo $greeting; ?>, welkom op de vragenlijst!</h1>
+    <p>We zijn blij dat je de tijd neemt om onze vragenlijst in te vullen. Het duurt slechts een paar minuten en je hulp is van groot belang voor ons. Klik op de volgende knop om te beginnen!</p>
+
         <main id="wrapper">
             <section>
                 <h2> Bent u geschikt om in de luchtvaart te werken bij KLM?</h2>

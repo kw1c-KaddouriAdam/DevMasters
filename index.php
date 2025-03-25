@@ -17,7 +17,7 @@
         <?php
         include("Includes/Navigator.php");
         ?>
-        <main id="wrapper">
+        <main>
         </main>
         <footer>
             <?php
