@@ -86,7 +86,22 @@ ul
     background-color: #0074c8;
     border: none;
     height: 2px;
-    margin: 20px auto; /* Center the line */
+    margin: 20px auto;
+}
+
+#blok
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blokjes
+{
+    background-color: #ebf3f8; /* Achtergrondkleur voor de blokken */
+    padding: 20px; /* Ruimte rondom de tekst */
+    margin: 10px; /* Ruimte tussen de blokken */
+    text-align: center; /* Centreer de tekst */
+    width: 200px; /* Breedte van elk blok */
 }
 
 

@@ -18,6 +18,40 @@
         include("Includes/Navigator.php");
         ?>
         <main>
+            <div id="blok">
+                <div class="blokjes">
+                    <h1>
+                        Huur een auto
+                    </h1>
+                    <p>
+                        Boek uw auto voordelig bij Hertz en spaar miles
+                    </p>
+                </div>
+                <div class="blokjes">
+                    <h1>
+                        Vind uw verblijf
+                    </h1>
+                    <p>
+                        Boek uw accomodatie bij booking.com en ontvang miles
+                    </p>
+                </div>
+                <div class="blokjes">
+                    <h1>
+                        Vervoer en parkeren
+                    </h1>
+                    <p>
+                        Reis van en naar de luchthaven en verken uw bestemming met een auto
+                    </p>
+                </div>
+                <div class="blokjes">
+                    <h1>
+                        Voorkom kosten voor dataroaming
+                    </h1>
+                    <p>
+                        Kies een eSim van Kolet en krijg 2 dagen gratis mobiele data
+                    </p>
+                </div>
+            </div>
         </main>
         <footer>
             <?php
