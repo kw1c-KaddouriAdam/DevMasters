@@ -22,7 +22,7 @@ figure>img
     width: 18%;
 }
 
-#nav>ul>li
+nav>ul>li
 {
     display: inline-block;
     padding: 0;
@@ -30,13 +30,13 @@ figure>img
     padding-right: 5px;
 }
 
-#nav>ul>li>a:hover
+nav>ul>li>a:hover
 {
     text-decoration: none;
     background-color: #eaebec;
 }
 
-#nav>ul>li>a
+nav>ul>li>a
 {
     font-size: 20px;
     text-decoration: none;
@@ -44,7 +44,7 @@ figure>img
     margin-left: 10px;
 }
 
-#nav
+nav
 {
     position: sticky;
     top: 0;

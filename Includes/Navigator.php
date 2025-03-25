@@ -20,7 +20,6 @@
             <li><a target="_blank" href="https://www.klm.nl/information/support">Hulp</a></li>
         </ul>
     </div>
-<hr id="streepjenav">
 
 
 
