@@ -20,6 +20,7 @@
         <main>
             <div id="blok">
                 <div class="blokjes">
+                    <img src="images/download.svg">
                     <h1>
                         Huur een auto
                     </h1>
@@ -28,6 +29,7 @@
                     </p>
                 </div>
                 <div class="blokjes">
+                    <img src="images/bed.svg">
                     <h1>
                         Vind uw verblijf
                     </h1>
@@ -36,6 +38,7 @@
                     </p>
                 </div>
                 <div class="blokjes">
+                    <img src="images/parkeren.svg">
                     <h1>
                         Vervoer en parkeren
                     </h1>
@@ -44,6 +47,7 @@
                     </p>
                 </div>
                 <div class="blokjes">
+                    <img src="images/wereld">
                     <h1>
                         Voorkom kosten voor dataroaming
                     </h1>

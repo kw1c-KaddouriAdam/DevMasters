@@ -101,7 +101,9 @@ ul
     padding: 20px; /* Ruimte rondom de tekst */
     margin: 10px; /* Ruimte tussen de blokken */
     text-align: center; /* Centreer de tekst */
-    width: 200px; /* Breedte van elk blok */
+    width: 240px; /* Breedte van elk blok */
+    height: 300px;
+    border-radius: 15px;
 }
 
 
