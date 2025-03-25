@@ -16,3 +16,8 @@ div
 {
     width: 75%;
 }
+
+#nav
+{
+    box-shadow: 0;
+}
