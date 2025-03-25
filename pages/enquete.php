@@ -138,7 +138,7 @@
                     <!--Een button om het te verzenden                -->
                     <button> Verzenden </button>
 
-                    <p id="result"> </p>
+                    <p id="result">    </p>
                 </form>
         </main>
         <footer>
