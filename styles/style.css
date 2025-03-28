@@ -86,10 +86,67 @@ ul
     background-color: #0074c8;
     border: none;
     height: 2px;
-    margin: 20px auto; /* Center the line */
+    margin: 20px auto;
 }
 
+#blok
+{
+    display: flex;
+    justify-content: space-around;
+}
 
+.blokjes
+{
+    background-color: #ebf3f8; /* Achtergrondkleur voor de blokken */
+    padding: 20px; /* Ruimte rondom de tekst */
+    margin: 10px; /* Ruimte tussen de blokken */
+    text-align: center; /* Centreer de tekst */
+    width: 240px; /* Breedte van elk blok */
+    height: 300px;
+    border-radius: 15px;
+}
 
+#wereld
+{
+    width: 176px;
+}
 
+#wereldtekst
+{
+    margin-bottom: 5px;
+}
+
+#bestemmingendiv
+{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/*
+HeleVak
+{
+    padding-top: -50px;????????????????????
+}
+*/
+
+.HeleVak:hover
+{
+    transform: scale(1.05); /* Zorgt ervoor dat de div iets groter wordt */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Geeft een schaduw */
+    background-color: whitesmoke; /* Maakt de achtegrond wat donkerder */
+}
+
+.FotoInVak
+{
+    position: relative;
+    top: 90px;
+    right: 125px;
+}
+
+.FotoInVak img
+{
+    width: 12%;
+    height: 12%;
+    border-radius: 10%;
+}
 
