@@ -60,26 +60,40 @@
             <h2>
                 Populaire bestemmingen
             </h2>
-            <h3>
-               San diego
-            </h3>
-            <p>
-                (Verenigde Staten)
-            </p>
-            <hr>
-            <h3>
-                Florence
-            </h3>
-            <p>
-                (Italie)
-            </p>
-            <hr>
-            <h3>
-                Bonaire
-            </h3>
-            <p>
-                (Bonaire, St Eustatius, Saba))
-            </p>
+            <div class="HeleVak">
+                <figure class="FotoInVak">
+                    <img src="images/Z07c-pbqstJ97-wv_is-san-diego-safe.jpg">
+                </figure>
+                <h3>
+                   San diego
+                </h3>
+                <p>
+                    (Verenigde Staten)
+                </p>
+                <hr>
+            </div>
+            <div class="HeleVak">
+                <figure class="FotoInVak">
+                    <img src="images/florence-uitzicht-vanaf-piazza-michelangelo.6.b958.jpg">
+                </figure>
+                <h3>
+                    Florence
+                </h3>
+                <p>
+                    (Italie)
+                </p>
+                <hr>
+            </div>
+            <div class="HeleVak">
+                <figure class="FotoInVak">
+                    <img src="images/1920_van-der-valk-plaza-island-residence-bonaire-overview.jpg">
+                </figure>
+                <h3>
+                    Bonaire
+                </h3>
+                <p>
+                    (Bonaire, St Eustatius, Saba))
+                </p>
                 <hr>
             </div>
         </main>
