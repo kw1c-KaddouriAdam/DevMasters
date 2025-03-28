@@ -47,8 +47,8 @@
                     </p>
                 </div>
                 <div class="blokjes">
-                    <img src="images/wereld">
-                    <h1>
+                    <img id="wereld" src="images/wereld">
+                    <h1 id="werreldtekst">
                         Voorkom kosten voor dataroaming
                     </h1>
                     <p>
@@ -56,11 +56,37 @@
                     </p>
                 </div>
             </div>
+            <div id="bestemmingendiv">
+            <h2>
+                Populaire bestemmingen
+            </h2>
+            <h3>
+               San diego
+            </h3>
+            <p>
+                (Verenigde Staten)
+            </p>
+            <hr>
+            <h3>
+                Florence
+            </h3>
+            <p>
+                (Italie)
+            </p>
+            <hr>
+            <h3>
+                Bonaire
+            </h3>
+            <p>
+                (Bonaire, St Eustatius, Saba))
+            </p>
+                <hr>
+            </div>
         </main>
-        <footer>
-            <?php
-            include("Includes/Footer.php");
-            ?>
-        </footer>
+<!--        <footer>-->
+<!--            --><?php
+//            include("Includes/Footer.php");
+//            ?>
+<!--        </footer>-->
     </body>
 </html>

@@ -106,7 +106,21 @@ ul
     border-radius: 15px;
 }
 
+#wereld
+{
+    width: 176px;
+}
 
+#wereldtekst
+{
+    margin-bottom: 5px;
+}
+
+#bestemmingendiv
+{
+    margin-left: 300px;
+    margin-right: 300px;
+}
 
 
 
