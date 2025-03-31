@@ -20,6 +20,7 @@
         <main>
             <div id="blok">
                 <div class="blokjes">
+                    <a href="www.google.nl">
                     <img src="images/download.svg">
                     <h1>
                         Huur een auto
@@ -27,8 +28,10 @@
                     <p>
                         Boek uw auto voordelig bij Hertz en spaar miles
                     </p>
+                    </a>
                 </div>
                 <div class="blokjes">
+                    <a href="www.google.nl">
                     <img src="images/bed.svg">
                     <h1>
                         Vind uw verblijf
@@ -36,8 +39,10 @@
                     <p>
                         Boek uw accomodatie bij booking.com en ontvang miles
                     </p>
+                    </a>
                 </div>
                 <div class="blokjes">
+                    <a href="www.google.nl">
                     <img src="images/parkeren.svg">
                     <h1>
                         Vervoer en parkeren
@@ -45,8 +50,10 @@
                     <p>
                         Reis van en naar de luchthaven en verken uw bestemming met een auto
                     </p>
+                    </a>
                 </div>
                 <div class="blokjes">
+                    <a href="www.google.nl">
                     <img id="wereld" src="images/wereld">
                     <h1 id="werreldtekst">
                         Voorkom kosten voor dataroaming
@@ -54,6 +61,7 @@
                     <p>
                         Kies een eSim van Kolet en krijg 2 dagen gratis mobiele data
                     </p>
+                    </a>
                 </div>
             </div>
             <div id="bestemmingendiv">
@@ -62,7 +70,7 @@
             </h2>
             <div class="HeleVak">
                 <figure class="FotoInVak">
-                    <img src="images/Z07c-pbqstJ97-wv_is-san-diego-safe.jpg">
+                    <img class="landenimg" src="images/sandiego.jpg">
                 </figure>
                 <h3>
                    San diego
@@ -74,7 +82,7 @@
             </div>
             <div class="HeleVak">
                 <figure class="FotoInVak">
-                    <img src="images/florence-uitzicht-vanaf-piazza-michelangelo.6.b958.jpg">
+                    <img class="landenimg" src="images/italie.jpg">
                 </figure>
                 <h3>
                     Florence
@@ -86,7 +94,7 @@
             </div>
             <div class="HeleVak">
                 <figure class="FotoInVak">
-                    <img src="images/1920_van-der-valk-plaza-island-residence-bonaire-overview.jpg">
+                    <img class="landenimg" src="images/VS.jpg">
                 </figure>
                 <h3>
                     Bonaire
@@ -97,10 +105,10 @@
                 <hr>
             </div>
         </main>
-<!--        <footer>-->
-<!--            --><?php
-//            include("Includes/Footer.php");
-//            ?>
-<!--        </footer>-->
+        <footer id="foot">
+            <?php
+            include("Includes/Footer.php");
+            ?>
+        </footer>
     </body>
 </html>
