@@ -64,45 +64,46 @@
                     </a>
                 </div>
             </div>
-            <div id="bestemmingendiv">
-            <h2>
-                Populaire bestemmingen
-            </h2>
-            <div class="HeleVak">
-                <figure class="FotoInVak">
-                    <img class="landenimg" src="images/sandiego.jpg">
-                </figure>
-                <h3>
-                   San diego
-                </h3>
-                <p>
-                    (Verenigde Staten)
-                </p>
-                <hr>
-            </div>
-            <div class="HeleVak">
-                <figure class="FotoInVak">
-                    <img class="landenimg" src="images/italie.jpg">
-                </figure>
-                <h3>
-                    Florence
-                </h3>
-                <p>
-                    (Italie)
-                </p>
-                <hr>
-            </div>
-            <div class="HeleVak">
-                <figure class="FotoInVak">
-                    <img class="landenimg" src="images/VS.jpg">
-                </figure>
-                <h3>
-                    Bonaire
-                </h3>
-                <p>
-                    (Bonaire, St Eustatius, Saba))
-                </p>
-                <hr>
+            <div id="bestemmingen">
+                <h2>
+                    Populaire bestemmingen
+                </h2>
+                <div class="landen">
+                    <img src="images/sandiego.jpg" class="plaatjelanden">
+                    <h3 class="landentekst">
+                        San diego
+                    </h3>
+                    <p class="landentekst">
+                        (Verenigde Staten)
+                    </p>
+                </div>
+                <div class="landen">
+                    <img src="images/italie.jpg" class="plaatjelanden">
+                    <h3 class="landentekst">
+                        Florence
+                    </h3>
+                    <p class="landentekst">
+                        (Italie)
+                    </p>
+                </div>
+                <div class="landen">
+                    <img src="images/VS.jpg" class="plaatjelanden">
+                    <h3 class="landentekst">
+                        Bonaire
+                    </h3>
+                    <p class="landentekst">
+                        (Bonaire, St Eustatius, Saba)
+                    </p>
+                </div>
+                <div class="landen">
+                    <img src="images/London.jpg" class="plaatjelanden">
+                    <h3 class="landentekst">
+                        London
+                    </h3>
+                    <p class="landentekst">
+                        (Verenigd Koninkrijk)
+                    </p>
+                </div>
             </div>
         </main>
         <footer id="foot">
