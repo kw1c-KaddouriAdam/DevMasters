@@ -40,25 +40,25 @@
                 <h1><?php echo $greeting; ?>, welkom op de vragenlijst! Bent u geschikt om in de luchtvaart te werken bij KLM?</h1>
                 <!-- Een vragenlijst -->
 
-                <form action="resultatenEnquete.php" method="get">
+                <form action="resultatenEnquete.php" method="post">
 
                     <div>
                         <label> Voor & achternaam </label>
                         <!-- De gebruiker kan typen. de naam wordt opgeroepen in de code van de resultaten pagina -->
-                        <input type="text" name="firstLastname"> <br>
+                        <input required type="text" name="firstLastname"> <br>
 
                         <label> Email </label>
                         <!-- De gebruiker kan typen. de emailAdres wordt opgeroepen in de code van de resultaten pagina -->
-                        <input type="text" name="emailAdres"> <br>
+                        <input required type="text" name="emailAdres"> <br>
                         <label> Geboortedatum </label>
                         <!-- De gebruiker kan een datum klikken -->
-                        <input type="date" name="birthDate"> <br>
+                        <input required type="date" name="birthDate"> <br>
                     </div>
 
                     <div>
                         <label> Heeft u ooit eerder in de luchtvaart gewerkt? </label> <br>
-                        <input type="radio" name="Experience" value="10"> Ja
-                        <input type="radio" name="Experience" value="5"> Nee
+                        <input type="radio" name="experience" value="10"> Ja
+                        <input type="radio" name="experience" value="5"> Nee
                     </div>
 
                     <div>
@@ -85,14 +85,14 @@
                         <label> Bent u bereid om ploegdiensten te werken (Nacht/dag)? </label> <br>
                         <input type="radio" name="Shifts" value="-5"> Nee
                         <input type="radio" name="Shifts" value="5"> Soms
-                        <input type="radio" name="Shifts" value="5"> Ja altijd
+                        <input type="radio" name="Shifts" value="10"> Ja altijd
                     </div>
 
                     <div>
                         <label> Hoe stressbestendig ben je? </label> <br>
-                        <input type="radio" name="Stress" value="-5"> Goed
+                        <input type="radio" name="Stress" value="10"> Goed
                         <input type="radio" name="Stress" value="0"> Voldoende
-                        <input type="radio" name="Stress" value="10"> Slecht
+                        <input type="radio" name="Stress" value="-5"> Slecht
                     </div>
 
                     <div>
@@ -155,11 +155,10 @@
                         <input type="radio" name="onTime" value="10"> Erg goed
                     </div>
 
-                    <!--Een button om het te verzenden                -->
-                    <button> Verzenden </button>
-
-                    <p id="result">    </p>
+                    <!--Een button om het te verzenden -->
+                    <button> verzenden </button>
                 </form>
+
         </main>
         <footer>
 
