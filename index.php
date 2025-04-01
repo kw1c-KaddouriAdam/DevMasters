@@ -20,6 +20,7 @@
         <main>
             <div id="blok">
                 <div class="blokjes">
+                    <a href="www.google.nl">
                     <img src="images/download.svg">
                     <h1>
                         Huur een auto
@@ -27,8 +28,10 @@
                     <p>
                         Boek uw auto voordelig bij Hertz en spaar miles
                     </p>
+                    </a>
                 </div>
                 <div class="blokjes">
+                    <a href="www.google.nl">
                     <img src="images/bed.svg">
                     <h1>
                         Vind uw verblijf
@@ -36,8 +39,10 @@
                     <p>
                         Boek uw accomodatie bij booking.com en ontvang miles
                     </p>
+                    </a>
                 </div>
                 <div class="blokjes">
+                    <a href="www.google.nl">
                     <img src="images/parkeren.svg">
                     <h1>
                         Vervoer en parkeren
@@ -45,8 +50,10 @@
                     <p>
                         Reis van en naar de luchthaven en verken uw bestemming met een auto
                     </p>
+                    </a>
                 </div>
                 <div class="blokjes">
+                    <a href="www.google.nl">
                     <img id="wereld" src="images/wereld">
                     <h1 id="werreldtekst">
                         Voorkom kosten voor dataroaming
@@ -54,53 +61,55 @@
                     <p>
                         Kies een eSim van Kolet en krijg 2 dagen gratis mobiele data
                     </p>
+                    </a>
                 </div>
             </div>
-            <div id="bestemmingendiv">
-            <h2>
-                Populaire bestemmingen
-            </h2>
-            <div class="HeleVak">
-                <figure class="FotoInVak">
-                    <img src="images/Z07c-pbqstJ97-wv_is-san-diego-safe.jpg">
-                </figure>
-                <h3>
-                   San diego
-                </h3>
-                <p>
-                    (Verenigde Staten)
-                </p>
-                <hr>
-            </div>
-            <div class="HeleVak">
-                <figure class="FotoInVak">
-                    <img src="images/florence-uitzicht-vanaf-piazza-michelangelo.6.b958.jpg">
-                </figure>
-                <h3>
-                    Florence
-                </h3>
-                <p>
-                    (Italie)
-                </p>
-                <hr>
-            </div>
-            <div class="HeleVak">
-                <figure class="FotoInVak">
-                    <img src="images/1920_van-der-valk-plaza-island-residence-bonaire-overview.jpg">
-                </figure>
-                <h3>
-                    Bonaire
-                </h3>
-                <p>
-                    (Bonaire, St Eustatius, Saba))
-                </p>
-                <hr>
+            <div id="bestemmingen">
+                <h2>
+                    Populaire bestemmingen
+                </h2>
+                <div class="landen">
+                    <img src="images/sandiego.jpg" class="plaatjelanden">
+                    <h3 class="landentekst">
+                        San diego
+                    </h3>
+                    <p class="landentekst">
+                        (Verenigde Staten)
+                    </p>
+                </div>
+                <div class="landen">
+                    <img src="images/italie.jpg" class="plaatjelanden">
+                    <h3 class="landentekst">
+                        Florence
+                    </h3>
+                    <p class="landentekst">
+                        (Italie)
+                    </p>
+                </div>
+                <div class="landen">
+                    <img src="images/VS.jpg" class="plaatjelanden">
+                    <h3 class="landentekst">
+                        Bonaire
+                    </h3>
+                    <p class="landentekst">
+                        (Bonaire, St Eustatius, Saba)
+                    </p>
+                </div>
+                <div class="landen">
+                    <img src="images/London.jpg" class="plaatjelanden">
+                    <h3 class="landentekst">
+                        London
+                    </h3>
+                    <p class="landentekst">
+                        (Verenigd Koninkrijk)
+                    </p>
+                </div>
             </div>
         </main>
-<!--        <footer>-->
-<!--            --><?php
-//            include("Includes/Footer.php");
-//            ?>
-<!--        </footer>-->
+        <footer id="foot">
+            <?php
+            include("Includes/Footer.php");
+            ?>
+        </footer>
     </body>
 </html>
