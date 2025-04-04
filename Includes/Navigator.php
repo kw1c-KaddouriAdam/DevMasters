@@ -1,7 +1,7 @@
 <?php
 
 /**
- * User: Adam kaddouri, Jesper sterrenburg en Robert bogmans
+ * User: Adam kaddouri
  * Date: 11-3-2025
  * File: Navigator.php
  */

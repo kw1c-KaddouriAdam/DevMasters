@@ -147,23 +147,28 @@ a
    padding-left: 30px;
 }
 
+/*als je over landen heen gaat word de kleur veranderd en er komt een schaduw*/
 .landen:hover
 {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Geeft een schaduw */
     background-color: #ebf3f8;
 }
 
+/*class plaatjelanden word opgemaakt en gepositioneerd*/
 .plaatjelanden {
-    width: 80px; /* Pas de grootte van het plaatje aan */
+    width: 80px;
     height: auto;
-    margin-right: 10px; /* Ruimte tussen het plaatje en de tekst */
+    margin-right: 10px;
     border-radius: 10px;
 }
 
-.landentekst {
+/*class landentekst krijgt een lettergrootte*/
+.landentekst
+{
     font-size: 16px; /* Pas de tekstgrootte aan */
 }
 
+/*van id bestemmingen en id werken alles in het midden gezet */
 #bestemmingen, #werken {
     display: flex;
     flex-direction: column;
@@ -172,10 +177,11 @@ a
     text-align: center;
 }
 
+/*id knop opgemaakt*/
 #knop
 {
     color: #0E578C;
-    background-color: #c2dbea;
+    background-color: #ebf3f8;
     border-radius: 10px;
     width: 200px;
     border: none;
@@ -183,11 +189,13 @@ a
     font-size: 20px;
 }
 
+/*als je met je muis over id knop gaat komt er een schaduw*/
 #knop:hover
 {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Geeft een schaduw */
 }
 
+/*id werkenbij word gepositioneerd*/
 #werkenbij
 {
     margin-bottom: 10px;

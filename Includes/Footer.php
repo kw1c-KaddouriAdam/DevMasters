@@ -9,9 +9,7 @@
 <html lang="nl">
 <head>
     <title>
-        <?php
-        echo 'Footer';
-        ?>
+        Footer
     </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,28 +20,42 @@
 </header>
 <main>
 </main>
+<!--footer een id gegeven-->
 <footer id="foot">
+<!--    div ingevoegd -->
     <div>
+<!--        div ingevoegd en een id gegeven -->
         <div id="foottekst">
-                <h3>Gegevens</h3>
-                <p>Amsterdamseweg 55, 1182 GP Amstelveen, Nederland </p>
-                <p>020 474 7747</p>
-                <p>klm_nederland@klm.mail.com</p>
+<!--            h3 ingevoegd -->
+            <h3>Gegevens</h3>
+<!--            p ingevoegd-->
+            <p>Amsterdamseweg 55, 1182 GP Amstelveen, Nederland </p>
+            <!--            p ingevoegd-->
+            <p>020 474 7747</p>
+            <!--            p ingevoegd-->
+            <p>klm_nederland@klm.mail.com</p>
         </div>
+<!--        streep ingevoegd -->
         <hr>
+<!--        div ingevoegd en een id gegeven-->
         <div id="foottekst2">
+<!--            p ingevoegd -->
             <p>
                 Juridische informatie
             </p>
+<!--            p ingevoegd-->
             <p>
                 Privacyverklaring
             </p>
+<!--            p ingevoegd -->
             <p>
-                Toegankelijkheidsverklaring
+                Reviews ★★★★☆
             </p>
+<!--            p ingevoegd-->
             <p>
                 &copy; 2025 KLM
             </p>
+<!--            p ingevoegd -->
             <p>
                 Cookie-Instellingen
             </p>
