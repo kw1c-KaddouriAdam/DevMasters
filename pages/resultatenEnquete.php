@@ -24,7 +24,7 @@
     <body>
 
         <main id="wrapper">
-            <section>
+            <section id="sectionResultaten">
                 <?php
 
                 echo date("d-m-Y H:i");
@@ -37,7 +37,7 @@
 
 //                echo $_SESSION['firstLastname'];
 
-                echo "<p>" . $_SESSION['firstLastname'] . "</p>" ;
+                echo "<p>Beste " . $_SESSION['firstLastname'] . ",</p>" ;
                 ?>
 
 
@@ -133,14 +133,14 @@
                 {
                     echo '<p> ★★★★★ <br>
                     U heeft een uitstekende score behaald! Uw vaardigheden en eigenschappen sluiten goed aan bij wat wij zoeken in de luchtvaart. 
-                    Wij raden u aan om te solliciteren bij KLM. <a target="_blank" href="https://careers.klm.com/nl/job-area/technology/techniekxxl/">Check de vacatures!</a> </p>';
+                    Wij raden u aan om te solliciteren bij KLM. <a target="_blank" href="https://careers.klm.com/nl/job-area/technology/techniekxxl/">Check de vacatures!</a> <div id="uitslag"> <img id="uitslagFoto" src="../images/thumbsUp.jpg"> </div> </p>';
                 }
                 elseif ($behaalde_punten >= 60)
                 {
                     echo '<p> ★★★★☆ <br> <br>
                     U beschikt over veel kwaliteiten die belangrijk zijn in de luchtvaart, maar er zijn nog enkele punten waarop u zich kunt ontwikkelen. 
                     Ons advies is om gerust een sollicitatie in te vullen en voor verdere vragen een mail te sturen. 
-                    <a target="_blank" href="https://careers.klm.com/nl/job-area/technology/techniekxxl/">Check de vacatures!</a> </p> <img src="../images/thumbsUp.jpg">';
+                    <a target="_blank" href="https://careers.klm.com/nl/job-area/technology/techniekxxl/">Check de vacatures!</a> </p> <div id="uitslag"> <img id="uitslagFoto" src="../images/thumbsUp.jpg"> </div>';
                 }
                 elseif ($behaalde_punten >= 40)
                 {

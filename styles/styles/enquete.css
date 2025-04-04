@@ -92,8 +92,31 @@ section
     padding: 20px;
 }
 
-section>p
-{
-    color: red;
+#uitslag {
+    display: flex;
+    justify-content: flex-end; /* Moves content to the right */
 }
 
+#uitslagFoto
+{
+    margin-top: auto;
+    margin-right: 100px;
+    margin-top: -210px;
+    width: 10%;
+    height: auto;
+}
+
+#sectionResultaten
+{
+    padding: 20px;
+    width: 65%;
+    background: #ffffff;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:  125px;
+    margin-top: 125px;
+}
