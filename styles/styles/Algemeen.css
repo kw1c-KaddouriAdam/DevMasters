@@ -1,42 +1,49 @@
+/*Name: Jesper Sterrenburg, Adam Kaddouri*/
+/*Date: 11-3-2025*/
+/*File: CSS homepage */
+
+/*Letterltype toegevoegd */
 @font-face
 {
     font-family:"Montserrat";
-    src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+    src: url("../../fonts/Montserrat/Montserrat-Medium.ttf");
 }
 
-
+/*Lettertype gebruikt op de body en de margin op 0 gezet*/
 body
 {
     font-family:"Montserrat";
     margin: 0;
 }
 
+/*Figure margin op 0 gezet*/
 figure
 {
     margin: 0;
 }
 
-figure>img
+/* id logo gepositioneerd */
+#logo
 {
     margin-left: 12px;
     width: 18%;
 }
 
-nav>ul>li
+/*id linav gepositioneerd*/
+.linav
 {
     display: inline-block;
-    padding: 0;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0 5px;
 }
 
-nav>ul>li>a:hover
+/*als je met je muis over id anav gaat word de achtergrond veranderd*/
+.anav:hover
 {
-    text-decoration: none;
     background-color: #eaebec;
 }
 
-nav>ul>li>a
+/*class anav word gepositioneerd, opgemaakt en het lettertype word aangepast*/
+.anav
 {
     font-size: 20px;
     text-decoration: none;
@@ -46,13 +53,7 @@ nav>ul>li>a
     border-radius: 10px;
 }
 
-nav
-{
-    position: sticky;
-    top: 0;
-}
-
-
+/*id foot word opgemaakt en gepositioneerd*/
 #foot
 {
     background-color: #f6f7f8;
@@ -61,11 +62,13 @@ nav
     margin-left: 0;
 }
 
+/*id foottekst word in het midden gezet*/
 #foottekst
 {
     text-align: center;
 }
 
+/*id foottekst2 krijgt een flex en word gepositioneerd*/
 #foottekst2
 {
     display: flex;
@@ -74,6 +77,7 @@ nav
     gap: 30px;
 }
 
+/*id streepjenav word opgemaakt*/
 #streepjenav
 {
     background-color: #0074c8;
@@ -82,49 +86,61 @@ nav
     margin: 20px auto;
 }
 
+/*id blok krijgt een flex en word gepositioneerd*/
 #blok
 {
     display: flex;
     justify-content: space-around;
 }
 
+/*id partners word in het midden gezet*/
+#partners
+{
+    text-align: center;
+}
+
+/*class blokjes word opgemaakt en gepositioneerd*/
 .blokjes
 {
-    background-color: #ebf3f8; /* Achtergrondkleur voor de blokken */
-    padding: 20px; /* Ruimte rondom de tekst */
-    margin: 10px; /* Ruimte tussen de blokken */
-    text-align: center; /* Centreer de tekst */
-    width: 240px; /* Breedte van elk blok */
+    background-color: #ebf3f8;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 240px;
     height: 320px;
     border-radius: 15px;
 }
 
+/*id wereld krijgt een breedte*/
 #wereld
 {
     width: 176px;
 }
 
+/*id wereldtekst word gepositioneerd*/
 #wereldtekst
 {
     margin-bottom: 5px;
 }
 
+/*a word zwart en krijgt geen lijntje */
 a
 {
-    font-style: none;
     color: black;
     text-decoration: none;
 }
 
+/*als je over dde class blokjes gaat krijgt het een schaduw*/
 .blokjes:hover
 {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Geeft een schaduw */
 }
 
+/*class landen krijgt een flex en word daarmee gepostioneerd*/
 .landen
 {
     display: flex;
-    align-items: center; /* Zorgt ervoor dat de afbeelding en tekst verticaal uitgelijnd zijn */
+    align-items: center;
     height: 100px;
     width: 60%;
     border-radius: 10px;
@@ -148,11 +164,31 @@ a
     font-size: 16px; /* Pas de tekstgrootte aan */
 }
 
-#bestemmingen {
+#bestemmingen, #werken {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /
+    justify-content: center;
     text-align: center;
 }
 
+#knop
+{
+    color: #0E578C;
+    background-color: #c2dbea;
+    border-radius: 10px;
+    width: 200px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#knop:hover
+{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Geeft een schaduw */
+}
+
+#werkenbij
+{
+    margin-bottom: 10px;
+}
