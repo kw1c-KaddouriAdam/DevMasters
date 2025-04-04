@@ -8,16 +8,16 @@
 ?>
 
 <figure>
-    <img src="../images/klm.png">
+    <img id="logo" src="../images/klm.png">
 </figure>
 
     <nav>
         <ul>
-            <li><a target="_blank" href="../index.php">Home</a></li>
-            <li><a target="_blank" href="https://www.klm.nl/trip">Mijn reis</a></li>
-            <li><a target="_blank" href="https://www.klm.nl/check-in">Check-in</a></li>
-            <li><a target="_blank" href="https://www.klm.nl/information">Informatie</a></li>
-            <li><a target="_blank" href="https://www.klm.nl/information/support">Hulp</a></li>
+            <li class="linav"><a class="anav" target="_blank" href="../index.php">Home</a></li>
+            <li class="linav"><a class="anav" target="_blank" href="https://www.klm.nl/trip">Mijn reis</a></li>
+            <li class="linav"><a class="anav" target="_blank" href="https://www.klm.nl/check-in">Check-in</a></li>
+            <li class="linav"><a class="anav" target="_blank" href="https://www.klm.nl/information">Informatie</a></li>
+            <li class="linav"><a class="anav" target="_blank" href="https://www.klm.nl/information/support">Hulp</a></li>
         </ul>
     <nav>
         <hr id="streepjenav">

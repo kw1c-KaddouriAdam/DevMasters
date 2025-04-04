@@ -13,7 +13,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../styles/styles/enquete.css" rel="stylesheet">
-        <link href="../styles/style.css" rel="stylesheet">
+        <link href="../styles/styles/Algemeen.css" rel="stylesheet">
         <link>
     </head>
     <header>
@@ -158,7 +158,6 @@
                     <!--Een button om het te verzenden -->
                     <button> verzenden </button>
                 </form>
-
         </main>
         <footer>
 
