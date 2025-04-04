@@ -25,8 +25,9 @@
 
         <main id="wrapper">
             <section>
-
                 <?php
+
+                echo date("d-m-Y H:i");
 
                 session_start();
 
@@ -34,7 +35,9 @@
                 $_SESSION["emailAdres"] = $_POST["emailAdres"];
                 $_SESSION["birthDate"] = $_POST["birthDate"];
 
-                echo $_SESSION['firstLastname'];
+//                echo $_SESSION['firstLastname'];
+
+                echo "<p>" . $_SESSION['firstLastname'] . "</p>" ;
                 ?>
 
 
@@ -128,23 +131,29 @@
 
                 if($behaalde_punten >= 80)
                 {
-                    echo " <p> U heeft een uitstekende score behaald! Uw vaardigheden en eigenschappen sluiten goed aan bij wat wij zoeken in de luchtvaart. 
-                    Wij raden u aan om te solliciteren bij KLM. </p>";
+                    echo '<p> ★★★★★ <br>
+                    U heeft een uitstekende score behaald! Uw vaardigheden en eigenschappen sluiten goed aan bij wat wij zoeken in de luchtvaart. 
+                    Wij raden u aan om te solliciteren bij KLM. <a target="_blank" href="https://careers.klm.com/nl/job-area/technology/techniekxxl/">Check de vacatures!</a> </p>';
                 }
                 elseif ($behaalde_punten >= 60)
                 {
-                    echo "<p> U beschikt over veel kwaliteiten die belangrijk zijn in de luchtvaart, maar er zijn nog enkele punten waarop u zich kunt ontwikkelen. 
-                    Ons advies is om gerust een sollicitatie in te vullen en voor verdere vragen een mail te sturen. </p>";
+                    echo '<p> ★★★★☆ <br> <br>
+                    U beschikt over veel kwaliteiten die belangrijk zijn in de luchtvaart, maar er zijn nog enkele punten waarop u zich kunt ontwikkelen. 
+                    Ons advies is om gerust een sollicitatie in te vullen en voor verdere vragen een mail te sturen. 
+                    <a target="_blank" href="https://careers.klm.com/nl/job-area/technology/techniekxxl/">Check de vacatures!</a> </p> <img src="../images/thumbsUp.jpg">';
                 }
                 elseif ($behaalde_punten >= 40)
                 {
-                    echo " <p> U beschikt over veel kwaliteiten die belangrijk zijn in de luchtvaart, maar er zijn nog enkele punten waarop u zich kunt ontwikkelen. 
-                    Dit betekent niet dat u geen kans maakt, maar wellicht is het goed om ergens anders ervaring op te doen. </p>";
+                    echo'<p> ★★★☆☆ 
+                    U beschikt over veel kwaliteiten die belangrijk zijn in de luchtvaart, maar er zijn nog enkele punten waarop u zich kunt ontwikkelen. 
+                    Dit betekent niet dat u geen kans maakt, maar wellicht is het goed om ergens anders ervaring op te doen. <a target="_blank" href="https://careers.klm.com/nl/job-area/technology/techniekxxl/">Check de vacatures!</a> </p>';
                 }
                 elseif ($behaalde_punten >= 20)
                 {
-                    echo " <p> Uw score geeft aan dat er nog veel werk aan de winkel is om aan de eisen te voldoen.
-                    Dit betekent niet dat u nooit in de luchtvaart kunt werken, maar voor nu komt u helaas tekort. </p>";
+                    echo '<p> ★☆☆☆☆ <br>
+                          Uw score geeft aan dat er nog veel werk aan de winkel is om aan de eisen te voldoen.
+                          Dit betekent niet dat u nooit in de luchtvaart kunt werken, maar voor nu komt u helaas tekort. 
+                          <a target="_blank" href="https://www.kw1c.nl/opleidingen/leidinggevende-travel-hospitality-bbl/">Check de opleiding!</a></p>';
                 }
 
                 ?>
