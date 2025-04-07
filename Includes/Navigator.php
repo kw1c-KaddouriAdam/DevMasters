@@ -10,7 +10,7 @@
 <link href="styles/styles/Algemeen.css" rel="stylesheet">
 <!--img ingevoegd met figure en img-->
 <figure>
-    <img id="logo" src="../images/klm.png">
+    <img id="logo" src="<?php echo $link1?>images/klm.png">
 </figure>
 <!--nav ingevoegd -->
     <nav>
