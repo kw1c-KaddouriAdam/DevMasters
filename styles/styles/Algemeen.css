@@ -200,3 +200,11 @@ a
 {
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 842px)
+{
+    footer
+    {
+        width: 100%;
+    }
+}
