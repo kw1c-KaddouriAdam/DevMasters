@@ -4,6 +4,7 @@
  * Date: 15-3-2025
  * File: index.php
  */
+$link1 = "../"
 ?>
 
 <!DOCTYPE html>

@@ -4,6 +4,7 @@
  * Date: 15-3-2025
  * File: ResultatenEnquete.php
  */
+$link1 = "../"
 ?>
 
 <!DOCTYPE html>
