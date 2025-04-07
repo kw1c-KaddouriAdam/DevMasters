@@ -1,6 +1,6 @@
 <?php
 /**
- * User: Adam kaddouri, Jesper sterrenburg en Robert bogmans
+ * User: Adam kaddouri, Jesper sterrenburg
  * Date: 15-3-2025
  * File: index.php
  */
