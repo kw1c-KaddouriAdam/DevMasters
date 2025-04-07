@@ -25,21 +25,37 @@
 
         <main id="wrapper">
             <section>
+                <!-- Php blok de tijd linkt aan een greeting                -->
                 <?php
-                // Haal het huidige uur op (24-uurs formaat)
+                // uur = hour
                 $hour = date('H');
 
-                if ($hour >= 5 && $hour < 12) {
-                    $greeting = "Goedemorgen";
-                } elseif ($hour >= 12 && $hour < 18) {
-                    $greeting = "Goedemiddag";
-                } else {
-                    $greeting = "Goedenavond";
+                // als het tussen 6 en 12 uur is
+                if ($hour >= 6 && $hour < 12)
+                {
+                    // wordt $groet Goedemorgen
+                    $groet = "Goedemorgen";
+                }
+                // als het tussen 12 en 18 uur is
+                elseif ($hour >= 12 && $hour < 18)
+                {
+                    // wordt $groet Goedemiddag
+                    $groet = "Goedemiddag";
+                }
+                // Alles wat buiten 6/12 en 12/18 valt is goedenavond
+                else
+                {
+                    // wordt $groet Goedeavond
+                    $groet = "Goedenavond";
                 }
                 ?>
-                <h1><?php echo $greeting; ?>, welkom op de vragenlijst! Bent u geschikt om in de luchtvaart te werken bij KLM? Kom erachter door deze korte enquete in te vullen. Succes!</h1>
-                <!-- Een vragenlijst -->
+                <!-- H1 korte uitnodigende tekst.-->
+                <h1>
+                    <!--roep de variabele groet op uit het eerste php blok-->
+                    <?php echo $groet; ?>, welkom op de vragenlijst! Bent u geschikt om in de luchtvaart te werken bij KLM? Kom erachter door deze korte enquete in te vullen. Succes!
+                </h1>
 
+                <!-- De vragenlijst -->
                 <form action="resultatenEnquete.php" method="post">
 
                     <div>
@@ -56,6 +72,8 @@
                     </div>
 
                     <div>
+                        <!--  Vraag 1 met radiobuttons. De experience wordt opgeroepen in de code van de resultaten pagina.
+                                               De vraag is maximaal 10 punten waard.-->
                         <label> Heeft u ooit eerder in de luchtvaart gewerkt? </label> <br>
                         <input required type="radio" name="experience" value="10"> Ja
                         <input required type="radio" name="experience" value="5"> Nee
@@ -155,12 +173,15 @@
                         <input required type="radio" name="onTime" value="10"> Erg goed
                     </div>
 
-                    <!--Een button om het te verzenden -->
+                    <!--Een button om het te verzenden. Als de gebruiker klikt op de button wordt hij of zij doorverwezen naar de resultaten pagina. -->
                     <button> verzenden </button>
                 </form>
         </main>
         <footer>
-
+            <!-- Een include die de footer toevoegt aan de pagina  -->
+            <?php
+            include("../Includes/Footer.php");
+            ?>
         </footer>
     </body>
 </html>
