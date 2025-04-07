@@ -201,10 +201,12 @@ a
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 842px)
+@media screen and (max-width: 500px)
 {
-    footer
+
+    html
     {
-        width: 100%;
+        width: 500px;
     }
+
 }
