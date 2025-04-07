@@ -141,3 +141,39 @@ section
     margin-top: 125px;
     text-align: center;
 }
+
+@media screen and (max-width: 500px)
+{
+    form
+    {
+        width: 90%;
+    }
+
+    h1
+    {
+        font-size: 25px;
+    }
+    button
+    {
+        width: 270px;
+        font-size: 25px;
+    }
+
+    input
+    {
+        width: 30px;
+    }
+
+    #sectionResultaten, #sectionBehaaldePunten
+    {
+        width: 90%;
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #uitslagFoto
+    {
+        margin-top: -190px;
+    }
+}

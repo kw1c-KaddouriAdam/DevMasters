@@ -203,10 +203,70 @@ a
 
 @media screen and (max-width: 500px)
 {
-
+    /*Gehele html pagina aanspreken*/
     html
     {
-        width: 500px;
+        width: 944px;
     }
 
+    /*gehele body aanspreken en de fontsize 20px groot maken*/
+    body
+    {
+        font-size: 20px;
+    }
+
+    /*Logo 10px naar rechts schuiven*/
+    figure
+    {
+        margin-left: 10px;
+    }
+    /*Logo moet 50% van de nav zijn*/
+    #logo
+    {
+        width: 50%;
+    }
+
+    /* titels*/
+    #partners
+    {
+        margin-top: 50px;
+    }
+
+    /*De blauwe blokken houden 60 px afstand van de volgende titel*/
+    #blok
+    {
+        margin-bottom: 60px;
+    }
+
+    /*De blauwe blokjes 420px maken*/
+    .blokjes
+    {
+        height: 420px;
+    }
+
+    /* de tekst 20px groot maken*/
+    .landentekst
+    {
+        font-size: 20px;
+    }
+
+    /*De knop 270 pixels breed maken en 25px grote tekst geven*/
+    #knop
+    {
+        width: 270px;
+        font-size: 25px;
+    }
+
+
+    #foottekst2
+    {
+        width: 90%;
+        margin-left: 50px;
+    }
+
+    /*de hyperlinks in de nav 25px groot maken*/
+    .anav
+    {
+        font-size: 25px;
+    }
 }
