@@ -6,6 +6,8 @@
  * File: Navigator.php
  */
 ?>
+
+<link href="styles/styles/Algemeen.css" rel="stylesheet">
 <!--img ingevoegd met figure en img-->
 <figure>
     <img id="logo" src="../images/klm.png">
@@ -15,7 +17,7 @@
 <!--        ul ingevoegd -->
         <ul>
 <!--            meerdere keren li ingevoegd met een class en een a ingevoegd waar een link instaat naar een andere pagina en met blank word de pagina in een andere tablad geopend -->
-            <li class="linav"><a class="anav" target="_blank" href="../index.php">Home</a></li>
+            <li class="linav"><a class="anav" target="_blank" href="<?php echo $link1?>index.php">Home</a></li>
             <li class="linav"><a class="anav" target="_blank" href="https://www.klm.nl/trip">Mijn reis</a></li>
             <li class="linav"><a class="anav" target="_blank" href="https://www.klm.nl/check-in">Check-in</a></li>
             <li class="linav"><a class="anav" target="_blank" href="https://www.klm.nl/information">Informatie</a></li>

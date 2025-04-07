@@ -39,21 +39,21 @@
         <hr>
 <!--        div ingevoegd en een id gegeven-->
         <div id="foottekst2">
-<!--            p ingevoegd -->
+<!--            p ingevoegd en een link -->
             <p>
-                Juridische informatie
+                <a href="https://www.klm.nl/information/legal">Juridische Informatie</a>
             </p>
-<!--            p ingevoegd-->
+<!--            p ingevoegd en een link-->
             <p>
-                Privacyverklaring
+                <a href="https://www.klm.nl/information/legal/privacy-policy">Privacyverklaring</a>
             </p>
-<!--            p ingevoegd -->
+<!--            p ingevoegd en een link-->
             <p>
-                Reviews ★★★★☆
+                <a href="https://www.tripadvisor.nl/Airline_Review-d8729104-Reviews-KLM-Royal-Dutch-Airlines">Reviews ★★★★☆</a>
             </p>
-<!--            p ingevoegd-->
+<!--            p ingevoegd en een link-->
             <p>
-                &copy; 2025 KLM
+                <a href="https://www.klm.nl/information/legal/copyright">&copy; 2025 KLM</a>
             </p>
 <!--            p ingevoegd -->
             <p>

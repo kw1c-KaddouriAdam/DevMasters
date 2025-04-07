@@ -4,6 +4,7 @@
  * Date: 11-3-2025
  * File: index.php
  */
+$link1 = "";
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -11,7 +12,6 @@
         <title> Startpagina </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="styles/styles/Algemeen.css" rel="stylesheet">
     </head>
     <body>
 <!--    nav word getoond-->
